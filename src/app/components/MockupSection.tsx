@@ -32,7 +32,7 @@ const Mockup: React.FC = () => {
           <Image
             src="/ab.png" // Path gambar yang ada di folder public
             alt="Chats UI"
-            layout="fill" // Menggunakan layout fill agar gambar memenuhi seluruh area
+            fill // Menggunakan layout fill agar gambar memenuhi seluruh area
             objectFit="contain" // Menghindari gambar terpotong, tetap menjaga rasio
             className="rounded-lg"
           />

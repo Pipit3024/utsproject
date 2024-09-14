@@ -12,7 +12,7 @@ const Conten: React.FC = () => {
         <Image
           src="/ad.png" // Path to the uploaded image (place it in the 'public' folder)
           alt="Person using a laptop"
-          layout="fill"
+          fill
           objectFit="cover"
           priority
         />
